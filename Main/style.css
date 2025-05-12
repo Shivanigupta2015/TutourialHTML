@@ -1,0 +1,141 @@
+/* Header - FOR NAVBAR */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(19, 19, 61);
+    color: white;
+    font-family: Calibri;
+}
+
+h2 {
+    font-family: cursive;
+    color: #842dbe;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(29, 14, 98);
+    font-size: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 5px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: hsl(182, 62%, 46%);
+}
+
+.left {
+    font-size: 1.7rem;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.right ul li {
+    display: inline-block;
+}
+
+.right ul a {
+    text-decoration: none;
+    padding: 5px 10px;
+    transition: 0.3s;
+}
+
+.right ul a:hover {
+    color: #0077b5;
+}
+
+.linkedin img,
+.github img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Main-Section */
+
+main hr {
+    border: 0;
+    height: 1.2px;
+    margin: 50px 84px;
+    background-color: #842dbe;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 50px 0;
+}
+
+.firstsection>div {
+    width: 30%;
+    ;
+}
+
+.leftsection {
+    font-size: 3rem;
+    margin: 30px 0;
+}
+
+.rightsection {
+    width: 70%;
+}
+
+.purple {
+    color: hsl(276, 62%, 46%);
+}
+
+#element {
+    color: hsl(276, 62%, 46%);
+}
+
+.secondsection {
+    max-width: 80vw;
+    margin: auto;
+    height: 100vh;
+}
+
+.secondsection h1 {
+    font-size: 1.9rem;
+}
+
+.secondsection .box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 20px 0;
+}
+
+.summary-box {
+    background-color: white;
+    width: 80vw;
+    height: 2px;
+    margin: 20px 0;
+    font-family: 'Lucida Sans';
+}
